@@ -1,0 +1,139 @@
+2016-05-13 02:30:16 [127.0.0.1][-][0cinbg3a2ei8o6sckaqu6acmo1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "test".' in C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('test', Array)
+#1 C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\phpStudy\WWW\YiiTemplate\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\phpStudy\WWW\YiiTemplate\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-13 02:30:16 [127.0.0.1][-][0cinbg3a2ei8o6sckaqu6acmo1][info][application] $_GET = [
+    'r' => 'test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0cinbg3a2ei8o6sckaqu6acmo1'
+    '_csrf' => 'b61227ba114f6c98850b5bed1733e2616a50487c23155388ee5da55ce5cd2bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4NfBB4DNbrV3nNT9JIL15fHv3HqkRAlZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/YiiTemplate/advanced/backend/web/'
+]
+
+$_SERVER = [
+    'NVIDIAWHITELISTED' => '0x01'
+    'PATH' => 'C:\\Ruby22-x64\\bin;C:\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Program Files (x86)\\Git\\bin\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\Services\\IPT\\;C:\\Program Files (x86)\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows7Master;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\nodejs\\;C:\\Python34\\;C:\\Python34\\Scripts;C:\\wamp\\bin\\php\\php5.5.12;C:\\windows;C:\\windows\\system32;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\ProgramData\\chocolatey\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\Administrator\\AppData\\Roaming\\npm;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SHIM_MCCOMPAT' => '0x810000001'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.RB;.RBW'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'C:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1900'
+    'SCRIPT_NAME' => '/YiiTemplate/advanced/backend/web/index.php'
+    'REQUEST_URI' => '/YiiTemplate/advanced/backend/web/index.php?r=test'
+    'QUERY_STRING' => 'r=test'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60817'
+    'SCRIPT_FILENAME' => 'C:/phpStudy/WWW/YiiTemplate/advanced/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'C:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.dev.local'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'PHPSESSID=0cinbg3a2ei8o6sckaqu6acmo1; _csrf=b61227ba114f6c98850b5bed1733e2616a50487c23155388ee5da55ce5cd2bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224NfBB4DNbrV3nNT9JIL15fHv3HqkRAlZ%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.dev.local'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/YiiTemplate/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463077816.919
+    'REQUEST_TIME' => 1463077816
+]
+2016-05-13 02:32:26 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\phpStudy\WWW\YiiTemplate\advanced\backend\views\test\index.php' in C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\phpStudy\\WWW...', Array, Object(backend\controllers\TestController))
+#1 C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\TestController))
+#2 C:\phpStudy\WWW\YiiTemplate\advanced\backend\controllers\TestController.php(20): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\TestController->actionIndex()
+#4 C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#7 C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('test', Array)
+#8 C:\phpStudy\WWW\YiiTemplate\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\phpStudy\WWW\YiiTemplate\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-13 02:32:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0cinbg3a2ei8o6sckaqu6acmo1'
+    '_csrf' => 'b61227ba114f6c98850b5bed1733e2616a50487c23155388ee5da55ce5cd2bf8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4NfBB4DNbrV3nNT9JIL15fHv3HqkRAlZ\";}'
+]
+
+$_SERVER = [
+    'NVIDIAWHITELISTED' => '0x01'
+    'PATH' => 'C:\\Ruby22-x64\\bin;C:\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Program Files (x86)\\Git\\bin\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\Services\\IPT\\;C:\\Program Files (x86)\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows7Master;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\nodejs\\;C:\\Python34\\;C:\\Python34\\Scripts;C:\\wamp\\bin\\php\\php5.5.12;C:\\windows;C:\\windows\\system32;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\ProgramData\\chocolatey\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\Administrator\\AppData\\Roaming\\npm;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SHIM_MCCOMPAT' => '0x810000001'
+    'SYSTEMROOT' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.RB;.RBW'
+    'WINDIR' => 'C:\\windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'C:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1900'
+    'SCRIPT_NAME' => '/YiiTemplate/advanced/backend/web/index.php'
+    'REQUEST_URI' => '/YiiTemplate/advanced/backend/web/index.php?r=test'
+    'QUERY_STRING' => 'r=test'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60841'
+    'SCRIPT_FILENAME' => 'C:/phpStudy/WWW/YiiTemplate/advanced/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'C:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'admin.dev.local'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\windows'
+    'HTTP_COOKIE' => 'PHPSESSID=0cinbg3a2ei8o6sckaqu6acmo1; _csrf=b61227ba114f6c98850b5bed1733e2616a50487c23155388ee5da55ce5cd2bf8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224NfBB4DNbrV3nNT9JIL15fHv3HqkRAlZ%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'admin.dev.local'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/YiiTemplate/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463077946.4212
+    'REQUEST_TIME' => 1463077946
+]
